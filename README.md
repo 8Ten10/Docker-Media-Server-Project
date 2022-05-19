@@ -30,11 +30,11 @@ My home directory is set up this way
 
 **Installing Docker and Docker-compose
 
-**Why Docker?**
+**- Why Docker?**
 
 Normally to deploy an application, you need to have an OS set up and configured, adding repositories, getting the app;ications, installing all the pre-requisities and dependencies. Each of these can be avioded using docker as it comes with everything already packed inside each container, like a mini OS. With `docker-compose` , you can edit and configure each container's configuration and parameters. I will be using it.
 
-Set up the repository
+**- Setting up the repository**
 
 ```console
 $ sudo apt update
@@ -45,20 +45,20 @@ $ echo \
 $ sudo apt update
 ```
 
-Install Docker Engine
+**- Installing Docker Engine**
 
 ```console
 $ sudo apt-get update
 $ sudo apt-get install docker-ce 
 ```
 
-Installing Docker-compose
+**- Installing Docker-compose**
 
 ```console
 $ sudo curl -L https://github.com/docker/compose/releases/download/v2.5.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 $ sudo chmod +x /usr/local/bin/docker-compose
  ```
- Add Linux User to Docker Group
+ -Add Linux User to Docker Group
  
  So that you don't have to sudo every time. 
  Replace `op` by your user, type `whoami` to get it if you happen to do not know. 
@@ -67,7 +67,7 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ sudo usermod -aG docker op
 ```
 
-**Mounting Media Disk
+**- Mounting Media Disk
 
 This is where all the media files will downloaded, stored and accessed by Plex
 
@@ -84,7 +84,7 @@ NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sdb       8:32   0   7.3T  0 disk   
 └─sdb1    8:33   0   7.3T  0 part
  ```
-Mine is sdb1
+Mine is `sdb1`
 
 Now, check the filesystem type of the disk or partition.
 
@@ -271,8 +271,8 @@ To access my plex server, I would enter
 http://10.1.1.10:32400
 ```
 
-For more information on how to configure Plex, Sonarr, and all the file permissions, please follow these guides:
+For more information on how to configure Plex server's settings, Sonarr's settings, and all the file permissions, please follow these guides:
 - [WikiArr](https://wiki.servarr.com/docker-guide)
-- 
+- [Trash-Guides](https://trash-guides.info/How-to-setup-for/Docker/)
 
 
