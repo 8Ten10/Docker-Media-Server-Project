@@ -1,0 +1,18 @@
+---
+version: "2"
+services:
+  heimdall:
+
+                image: linuxserver/heimdall
+                container_name: heimdall
+                environment:
+                         - PUID=1000
+                         - PGID=1000
+                         - BASE_URL=/
+                         - TZ=America/New_York
+                ports:
+                        - 9002:80
+                        - 9001:443
+                volumes:
+                        - /home/op/docker-compose/heimdall/config:/config
+                restart: unless-stopped

@@ -1,0 +1,18 @@
+---
+version: "2"
+services:
+  lidarr:
+    image: linuxserver/lidarr
+    container_name: lidarr
+    network_mode: bridge
+    environment:
+      - PUID=PUID:-1000
+      - PGID=PGID:-1000
+      - VERSION=docker
+      - TZ=America_New_York
+    volumes:
+      - /home/op/docker-compose/lidarr/config:/config
+      - /mnt/disk/
+    ports:
+      - 8686:8686
+    restart: unless-stopped
