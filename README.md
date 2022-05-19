@@ -50,7 +50,7 @@ My home directory looks like this:
 ![This Is my Home Directory](images/folders.png)
 
 
-**Installing Docker and Docker-compose
+**Installing Docker and Docker-compose**
 
 **- Why Docker?**
 
@@ -137,7 +137,7 @@ $ sudo vi /etc/fstab/
 
 ## Setup Environmental Variables for Docker-compose
 
-Look back up at my the folder structure I mentioned earlier Into each container's folder, create a docker-compose.yml file. This is how myfolder structure looks like
+Look back up at my the folder structure I mentioned earlier. Into each container's folder, create a docker-compose.yml file. This is how myfolder structure looks like
  
 ```console
 /home/op/docker-compose
