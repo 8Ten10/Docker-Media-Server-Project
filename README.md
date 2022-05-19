@@ -23,10 +23,26 @@ This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and m
 
 ## Installation
 
-I will be using docker-compose for this setup. Each container's files and databases will be installed in its own directory on my home directory. I decided to create a separate .yml file for each container, although one could be create for all the containers. 
-My home directory is set up this way
+I will be using docker-compose for this setup. Each container's files and databases will be installed in its own directory on my home directory. I decided to create a separate .yml file for each container, although one could be created for all the containers. 
+My home directory looks like this:
 
- /home/op/docker-compose/ = Home directory
+/home/op/docker-compose
+├── plex
+│   ├── config
+│   └── docker-compose.yml
+├── sonarr
+│   ├── config
+│   └── docker-compose.yml
+├── nzbget
+│   ├── config
+│   └── docker-compose.yml
+├── radarr
+│   ├── config
+│   └── docker-compose.yml
+└── portainer
+    ├── config
+    └── docker-compose.yml
+
 
 **Installing Docker and Docker-compose
 
