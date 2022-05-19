@@ -2,7 +2,8 @@
 This repository contains a full media-entertaiment application stack running in my headless Linux server (Ubuntu server 22.04 LTS).
 I will be deploying 4 containers for this project.
 
-After searching for the perfect NAS solution, I realized what I wanted could be achieved with some Docker containers on a vanilla Linux box. The result is an opinionated Docker Compose configuration capable of browsing indexers to retrieve media resources.
+After searching for a NAS solution, I realized what I wanted could be achieved with some Docker containers on a vanilla Linux. The result is an opinionated Docker Compose configuration capable of browsing indexers to retrieve media resources.
+
 ## Hardware Configuration
 
 - [x] **Router**
@@ -13,7 +14,7 @@ After searching for the perfect NAS solution, I realized what I wanted could be 
 ![This Is My Server](images/server.jpg)
 
 This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and made a couple of changes.
-- Ubuntu 22.04 LTS
+- Ubuntu Server 22.04 LTS
 - Intel I7-6700 CPU
 - Intel HD Graphics 530 {I will be switching it for a dedicated GPU, mainly for Tanscoding}
 - Killisre DDR4 2x8GB running at 2133Mhz 
