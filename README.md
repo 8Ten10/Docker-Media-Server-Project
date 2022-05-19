@@ -21,7 +21,7 @@ This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and m
 - Kingston RBU-SNS8100S3 128GB M.2 SATA (for the OS and all the containers files and databases)
 - [Seagate BarraCuda 8TB](https://www.amazon.com/Seagate-External-Desktop-Photography-STEL8000100/dp/B01HD6ZLQ6?th=1) (Yes, it's an SMR drive, but I got it cheap and shucked it. I think It is decent as a media drive as there won't be much writing involved)
 
-![Ubuntu Server](images/ipserver.jpg)
+![Ubuntu Server](images/ipserver.png)
 
 ## Installation
 
@@ -47,7 +47,7 @@ My home directory looks like this:
     └── docker-compose.yml
 
 ```
-![This Is my Home Directory](images/folders.jpg)
+![This Is my Home Directory](images/folders.png)
 
 
 **Installing Docker and Docker-compose
@@ -284,8 +284,9 @@ After saving all the docker-compose.yml files, run the following command from ea
 
 ```console
 $ docker-compose up -d
+```
 
-![This Is My Portainer Main](images/portainer.jpg)```
+![This Is My Portainer Main](images/portainer.png)
 
 Now, all you have to do is open your browser to access your application `http://your_server_ip:port`
 To access my plex server, I would enter 
