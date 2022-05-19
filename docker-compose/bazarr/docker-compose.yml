@@ -1,0 +1,18 @@
+---
+version: "2"
+services:
+  bazarr:
+    image: linuxserver/bazarr
+    container_name: bazarr
+    network_mode: bridge
+    environment:
+      - PUID=PUID:-1000
+      - PGID=PGID:-1000
+      - VERSION=docker
+      - TZ=America_New_York
+    volumes:
+      - /home/op/docker-compose/bazarr/config:/config
+      - /mnt/disk/media:/media
+    ports:
+      - 7767:7767
+    restart: unless-stopped

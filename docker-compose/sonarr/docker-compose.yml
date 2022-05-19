@@ -1,0 +1,17 @@
+version: "2"
+services:
+  sonarr:
+    image: linuxserver/sonarr
+    container_name: sonarr
+    network_mode: bridge
+    environment:
+      - PUID=PUID:-1000
+      - PGID=PGID:-1000
+      - VERSION=docker
+      - TZ=America_New_York
+    volumes:
+      - /home/op/docker-compose/sonarr/config:/config
+      - /mnt/disk:/mnt/disk
+    ports:
+      - 8989:8989
+    restart: unless-stopped
