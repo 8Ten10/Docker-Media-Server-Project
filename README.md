@@ -81,16 +81,16 @@ $ sudo apt-get install docker-ce
 $ sudo curl -L https://github.com/docker/compose/releases/download/v2.5.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 $ sudo chmod +x /usr/local/bin/docker-compose
  ```
- -Add Linux User to Docker Group
+ **-Adding Linux User to Docker Group**
  
- So that you don't have to sudo every time. 
+ So that you don't have to sudo every time . 
  Replace `op` by your user, type `whoami` to get it if you happen to do not know. 
 
 ```console
 $ sudo usermod -aG docker op
 ```
 
-**- Mounting Media Disk
+**- Mounting Media Disk**
 
 This is where all the media files will downloaded, stored and accessed by Plex
 
@@ -109,7 +109,7 @@ sdb       8:32   0   7.3T  0 disk
  ```
 Mine is `sdb1`
 
-Now, check the filesystem type of the disk or partition.
+Now, check the filesystem type of the disk partition.
 
 ```console 
 $ blkid /dev/sdb1
@@ -125,20 +125,23 @@ $ sudo mount -t ext4 /dev/sdb1 /mnt/disk
  ```
  It should now be mounted. Go ahead and type `df -h` to confirm it was successfully mounted.
  
- To automatically mount your partition at every reboot, you will have to add an entry for a new mount point in /etc/fstab
+ To automatically mount your partition at every reboot, you will have to add an entry for a new mount point in `/etc/fstab`
  
  ```console 
 $ sudo vi /etc/fstab/
  ```
- add this line (change the UUID with your own disk partition) using any editor
- `UUID="3a78sf00-a278-45aa-9260-4a98f9f8f8cf /mnt/disk/   ext4    defaults        0       0`
+ 
+add this line (change the UUID with your own disk partition) using any editor
+ 
+ ```console
+UUID="3a78sf00-a278-45aa-9260-4a98f9f8f8cf /mnt/disk/   ext4    defaults        0       0
+ ```
 
 
 
+## Setup Environment Variables for Docker-compose
 
-## Setup Environmental Variables for Docker-compose
-
-Look back up at my the folder structure I mentioned earlier. Into each container's folder, create a docker-compose.yml file. This is how myfolder structure looks like
+Look back up at my the folder structure I mentioned earlier. Into each container's folder, create a docker-compose.yml file. This is how my folder structure looks like:
  
 ```console
 /home/op/docker-compose
