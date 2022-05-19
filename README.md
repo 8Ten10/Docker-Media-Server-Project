@@ -55,7 +55,7 @@ My home directory looks like this:
 
 **- Why Docker?**
 
-Normally to deploy an application, you need to have an OS set up and configured, adding repositories, getting the app;ications, installing all the pre-requisities and dependencies. Each of these can be avioded using docker as it comes with everything already packed inside each container, like a mini OS. With `docker-compose` , you can edit and configure each container's configuration and parameters. I will be using it.
+Normally, to deploy an application, you need to have an OS set up and configured, adding repositories, getting the app;ications, installing all the pre-requisities and dependencies. Each of these can be avioded using docker as it comes with everything already packed inside each container, like a mini OS. With `docker-compose` , you can edit and configure each container's configuration and parameters. I will be using it.
 
 **- Setting up the repository**
 
