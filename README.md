@@ -191,6 +191,7 @@ services:
 
 Note that your PUID and PGUID can both be retrieved using the command `id user` . Replace user by your user account name.
 
+![This Is plex](images/plex.png)
 
 **Sonarr**
 
@@ -213,6 +214,7 @@ services:
       - 8989:8989
     restart: unless-stopped
 ```
+![This Is Sonarr](images/sonarr.png)
 
 **Radarr**
 
@@ -236,6 +238,9 @@ services:
       - 7878:7878
     restart: unless-stopped
 ```
+
+![This Is Radarr](images/radarr.png)
+
 **Nzbget**
 
 ```console
@@ -260,6 +265,7 @@ services:
     restart: unless-stopped 
 ```
 
+![This Is nzbget](images/nzbget.png)
 
 **Portainer**
 
