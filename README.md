@@ -2,7 +2,7 @@
 This repository contains a full media-entertaiment application stack running in my headless Linux server (Ubuntu server 22.04 LTS).
 I will be deploying 4 containers for this project.
 
-After searching for a NAS solution, I realized what I wanted could be achieved with some Docker containers on a vanilla Linux. The result is an opinionated Docker Compose configuration capable of browsing indexers to retrieve media resources.
+After searching for a NAS solution, I realized what I wanted could be achieved with some Docker containers on a vanilla Linux. The result is a perfect Docker Compose configurations capable of browsing indexers to retrieve media resources.
 
 ## Hardware Configuration
 
