@@ -20,7 +20,7 @@ This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and m
 - Killisre DDR4 2x8GB running at 2133Mhz 
 - Low profile AMD Radeon HD 8570 (Completely useless, Not in Use)
 - Kingston RBU-SNS8100S3 128GB M.2 SATA (for the OS and all the containers files and databases)
-- [Seagate BarraCuda 8TB](https://www.amazon.com/Seagate-External-Desktop-Photography-STEL8000100/dp/B01HD6ZLQ6?th=1) (Yes, it's an SMR drive, but I got it cheap and shucked it. I think It is decent as a media drive as there won't be much writing involved)
+- [Seagate BarraCuda 8TB](https://www.amazon.com/Seagate-External-Desktop-Photography-STEL8000100/dp/B01HD6ZLQ6?th=1) (Yes, it's an SMR drive (*_*), but I got it cheap and shucked it. I think It is decent as a media drive as there won't be much writing involved)
 
 ![Ubuntu Server](images/ipserver.png)
 
