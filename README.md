@@ -271,11 +271,11 @@ services:
 
 If you happen to have many containers, or do not feel confortable working with CLI, `Portainer` can help you manage your stack through a Web UI. 
 
+```console
 ---
 version: "2"
 services:
   portainer:
-
        image: portainer/portainer-ce:latest
        container_name: portainer
        restart: unless-stopped
