@@ -1,4 +1,4 @@
-# Docker Server Project
+# Hi Sheena ////  Docker Server Project 
 This repository contains a full media-entertaiment application stack running in my headless Linux server (Ubuntu server 22.04 LTS).
 I will be deploying 4 containers for this project.
 
@@ -13,7 +13,7 @@ After searching for a NAS solution, I realized what I wanted could be achieved w
 - [x] **Server**
 ![This Is My Server](images/server.jpg)
 
-This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and made a couple of changes.
+This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and made a couple of changes/upgrades.
 - Ubuntu Server 22.04 LTS
 - Intel I7-6700 CPU
 - Intel HD Graphics 530 {I will be switching it for a dedicated GPU, mainly for Tanscoding}
