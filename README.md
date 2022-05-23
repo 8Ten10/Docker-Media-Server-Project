@@ -1,4 +1,4 @@
-# Hi Sheena ////  Docker Server Project 
+# Docker Server Project 
 This repository contains a full media-entertaiment application stack running in my headless Linux server (Ubuntu server 22.04 LTS).
 I will be deploying 4 containers for this project.
 
