@@ -11,7 +11,7 @@ After searching for a NAS solution, I realized what I wanted could be achieved w
 [NETGEAR R700](https://www.amazon.com/NETGEAR-Nighthawk-Smart-Wi-Fi-Router/dp/B00F0DD0I6) running on [DD-WRT v3.0-r48432 std](https://wiki.dd-wrt.com/wiki/index.php/Netgear_R7000)
 
 - [x] **Server**
-![This Is My Server](images/server.jpg)
+<p align="center"> <img width="750" height="700" src="images/server.jpg"> </p>
 
 This is basically an excellent Dell Optiplex 7050 I got off Ebay for cheap and made a couple of changes/upgrades.
 - Ubuntu Server 22.04 LTS
